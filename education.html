@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-image: url('white.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: black;
+            margin: 0;
+        }
+        .overlay {
+            background-color: rgba(0, 0, 0, 0.6);
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+        .navbar {
+            background: linear-gradient(135deg, #1f4037, #99f2c8);
+            padding: 15px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        .navbar-nav .nav-link {
+            color: white !important;
+            font-weight: 500;
+            transition: all 0.3s ease-in-out;
+            padding: 8px 15px;
+            border-radius: 25px;
+        }
+        .navbar-nav .nav-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            color: #ffeb3b !important;
+            transform: scale(1.1);
+        }
+        .education-container {
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        .education-container h2 {
+            font-weight: 600;
+            color: #ffeb3b;
+        }
+        .education-container p {
+            font-size: 18px;
+            padding: 10px;
+            color: white;
+        }
+        .back-btn {
+            display: inline-block;
+            margin-top: 20px;
+            text-decoration: none;
+            font-weight: 600;
+            color: white;
+            background: #ff6b6b;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: all 0.3s ease-in-out;
+        }
+        .back-btn:hover {
+            background: #ff4757;
+            transform: scale(1.1);
+        }
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="overlay"></div>
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Narasimha's Portfolio</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="aboutme.html">About Me</a></li>
+                <li class="nav-item"><a class="nav-link active" href="education.html">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="acheivements.html">Achievements</a></li>
+                <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+                <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="contactme.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="education-container">
+        <h2>Education</h2>
+        <p><strong>Current Education:</strong> 2nd Year, Bachelor of Technology (BTech) in CSE at SRM UNIVERSITY</p>
+        <p><strong>Year of Study:</strong> 2023</p>
+        <p><strong>Expected Graduation:</strong> 2027</p>
+        <p><strong>School:</strong> SRI CHAITANYA SCHOOL, RAVULAPLEM</p>
+        <p><strong>Intermediate:</strong> ADITYA JR COLLEGE, AMALAPURAM</p>
+        <a href="narasimha99.html" class="back-btn">⬅ Back Home</a>
+    </div>
+</div>
+<div class="footer">
+    &copy; 2025 Narasimha Swarna | All Rights Reserved
+</div>
+</body>
+</html>
